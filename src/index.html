@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./script/script.js"></script>
+    <link href="./style/output.css" rel="stylesheet">
+    <title>Ocr to Document</title>
+</head>
+<body>
+    <p class="w-max absolute bottom-5 left-1/2 -translate-x-1/2 z-50 font-inter text-sm font-normal text-gray-400">Made with Tailwind by Anurag.</p>
+    <nav class="
+        w-fullvw fixed top-0 left-0 z-50
+        p-mobile py-2 font-inter flex flex-wrap
+        justify-between font-medium items-center
+        sm:p-tablet sm:py-2 lg:p-desktop lg:py-2 backdrop-blur-lg
+    ">
+        <div class="flex items-center gap-5">
+            <span class="sm:hidden" ><i id="ham" class="fa-solid fa-bars cursor-pointer"></i></span>
+            <h3 class="text-sm text-myBlue font-black">OTD</h3>
+        </div>
+        <div class="
+            fixed flex flex-col gap-5 text-base uppercase tracking-wider top-16 bg-myBlue text-myWhite m-auto
+            w-full h-fit p-5 rounded-lg drop-shadow-sm translate-x-full duration-200 ease-in
+            sm:flex-row sm:relative sm:top-full sm:bg-transparent sm:text-myBlack 
+            sm:h-auto sm:p-0 sm:translate-x-0 sm:w-auto
+        " id="hiddenNav">
+            <a href="">Features</a>
+            <a href="">Pricing</a>
+            <a href="">About Us</a>
+        </div>
+        <button class="bg-myBlue text-myWhite px-6 py-2 rounded-md hover:bg-myBlack active:bg-gray-500">Sign Up</button>
+    </nav>
+    <div class="
+        w-fullvw h-fullvh max-h-max flex flex-col gap-5 
+        p-mobile items-center relative z-20
+        sm:p-tablet lg:p-desktop
+        bg-grids bg-cover bg-center overflow-x-hidden
+    ">
+        <div class="text-center flex flex-col gap-5">
+            <p class="font-oxygen text-base text-gray-500">An app made for saving time.</p>
+            <p class="font-inter text-2xl font-bold sm:text-4xl">
+                <span class="text-myBlue">Scan</span>, 
+                <span class="text-myBlue">Copy</span> and 
+                <span class="text-myBlue">Convert</span> to<br>
+                Handwritten Text using <span class="text-myBlue">ML</span>
+            </p>
+        </div>
+        <button class="bg-myBlue text-myWhite font-semibold px-6 py-2 rounded-md hover:bg-myBlack active:bg-gray-500">Try Out</button>
+        <img src="./resources/software.png" alt="" class="w-image drop-shadow-lg sm:w-imagesm">
+    </div>
+    <div class="w-fullvw h-fullvh absolute top-0 left-0 z-0 bg-myWhite "></div>
+</body>
+</html>

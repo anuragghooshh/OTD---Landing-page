@@ -1,0 +1,14 @@
+{
+  "name": "otd-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page made using Tailwind CSS of a personal Machine Learning based projec 'OCR to Document'",
+  "main": "./src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Ghosh",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    #hiddenNav.active {
+        transform: translateX(0);
+        transition: 0.2s ease-out;
+    }
+    #dim.active{
+        display: block;
+        pointer-events: none;
+    }
+}
