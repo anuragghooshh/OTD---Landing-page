@@ -642,6 +642,10 @@ video {
   border-radius: 0.375rem;
 }
 
+.bg-myWhiteT {
+  background-color: #ffffffca;
+}
+
 .bg-myBlue {
   --tw-bg-opacity: 1;
   background-color: rgb(40 63 182 / var(--tw-bg-opacity));
@@ -802,12 +806,16 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:relative {
-    position: relative;
+  .sm\:fixed {
+    position: fixed;
   }
 
-  .sm\:top-full {
-    top: 100%;
+  .sm\:left-1\/2 {
+    left: 50%;
+  }
+
+  .sm\:top-5 {
+    top: 1.25rem;
   }
 
   .sm\:hidden {
@@ -818,16 +826,17 @@ video {
     height: auto;
   }
 
-  .sm\:w-auto {
-    width: auto;
+  .sm\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .sm\:w-imagesm {
     width: 30rem;
   }
 
-  .sm\:translate-x-0 {
-    --tw-translate-x: 0px;
+  .sm\:-translate-x-1\/2 {
+    --tw-translate-x: -50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 

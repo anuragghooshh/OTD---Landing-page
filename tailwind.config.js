@@ -7,7 +7,7 @@ module.exports = {
         myBlue: "#283FB6",
         myWhite: "#ffffff",
         myBlack: "#0B0B0B",
-        myWhiteT : "rgba(255, 255, 255, 0.953)"
+        myWhiteT : "#ffffffca"
       },
       fontFamily: {
         inter: ["Inter"],
